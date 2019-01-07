@@ -1,0 +1,133 @@
+body { 
+
+ background-image: url('https://i.imgur.com/DgT0d0p.jpg'); 
+ 
+
+} 
+
+#nav-bar { 
+  text-align: center; 
+} 
+
+h1 { 
+  font-size: 50px;
+  font-family: 'Poiret One', cursive;
+} 
+
+
+
+#invited { 
+padding-top: 5px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+font-size: 15px;
+font-weight: bold;
+
+}
+
+.and { 
+font-size: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#date { 
+display: flex;
+justify-content: space-around;
+line-height: 10px;
+height: 40px;
+font-size: 15px;
+
+}
+
+
+#location {
+display: flex;
+justify-content: center;
+line-height: 5px;
+height: 20px;
+}
+
+#names { 
+  display: flex;
+  justify-content: center;
+  height: 50px;
+
+  
+}
+
+#last { 
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+  
+
+#initials { 
+  display: flex;
+  justify-content: center;
+  line-height: 200px;
+  height: 175px;
+}
+  
+  
+.container {
+  margin-right: 30px; 
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+
+#styles { 
+ height: 500px;
+ margin: auto;
+ font-size: 25px;
+ font-family: 'Poiret One', cursive;
+ font-weight: bold;
+
+}
+
+#buttons { 
+  border-bottom: 3px solid black;
+}
+
+
+
+p {
+  text-align: center;
+  
+
+}
+
+#example { 
+  height: 550px;
+  width: 500px;
+  background-color: #9791a0;
+  
+}
+
+.formal { 
+  color: #fcfbec;
+  font-family: 'Alex Brush', cursive;
+  font-size: 45px;
+  background-image: url("https://i.imgur.com/UAJPWy6.png");
+  
+}
+
+.spring {
+  color: black;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+  background-image: url('https://i.imgur.com/iflCHTz.png');
+}
+
+.magicked { 
+  color: white;
+  font-family: 'Henny Penny', cursive;
+  font-size: 25px;
+  background-image: url("https://i.imgur.com/dJogbmh.png");
+} 
+
